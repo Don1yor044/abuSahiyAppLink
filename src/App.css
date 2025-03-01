@@ -1,0 +1,32 @@
+.bg-container {
+  background: linear-gradient(to top, #d8d8d8, #fd521c);
+  height: 100vh;
+  width: 100%;
+  display: flex; /* Flexbox ishlatamiz */
+  justify-content: center; /* O'rtaga tekislash (gorizontal) */
+  align-items: center; /* O'rtaga tekislash (vertikal) */
+  flex-direction: column; /* Tugmalarni bir-birining ostiga joylash */
+}
+
+.button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 150px;
+  border: 1px solid #fd521c;
+  font-weight: 600;
+  margin: 10px 10px; /* Har bir tugma orasida 10px bo'shliq */
+  cursor: pointer; /* Cursorni "pointer" qilamiz */
+  background-color: #fff; /* Orqa fon rangi */
+  color: #fd521c; /* Matn rangi */
+  transition: all 0.3s ease; /* O'tish effekti */
+}
+
+.button:hover {
+  background-color: #fd521c; /* Hoverda rang o'zgarishi */
+  color: #fff; /* Matn rangi o'zgarishi */
+}
+
+.img {
+  width: 200px;
+  margin-bottom: 100px;
+}

@@ -1,0 +1,11 @@
+<intent-filter>
+    <action android:name="android.intent.action.VIEW" />
+    <category android:name="android.intent.category.DEFAULT" />
+    <category android:name="android.intent.category.BROWSABLE" />
+    <data
+        android:scheme="https"
+        android:host="app.abusahiy.uz" />
+    <data
+        android:scheme="https"
+        android:host="abusahiy-alternate.app.link" />
+</intent-filter>
