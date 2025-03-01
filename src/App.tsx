@@ -1,9 +1,17 @@
+import { useEffect, useState } from "react";
 import "./App.css";
+import { useLocation } from "react-router-dom";
 
 function App() {
+  const location = useLocation();
+  const [links, setLinks] = useState("");
+
+  useEffect(() => {
+    setLinks(location.pathname);
+  }, [location]);
+
   const handleAppOpen = () => {
-    const appUrl =
-      "https://app.abusahiy.uz/GoodsDetailView/https://detail.1688.com/offer/662702561373.html";
+    const appUrl = `https://app.abusahiy.uz${links}`;
     window.location.href = appUrl;
   };
 
