@@ -11,9 +11,10 @@
 .button {
   padding: 10px 20px;
   border-radius: 10px;
-  width: 150px;
+  width: 200px;
   border: 1px solid #fd521c;
   font-weight: 600;
+  font-size: 20px;
   margin: 10px 10px; /* Har bir tugma orasida 10px bo'shliq */
   cursor: pointer; /* Cursorni "pointer" qilamiz */
   background-color: #fff; /* Orqa fon rangi */
@@ -27,6 +28,6 @@
 }
 
 .img {
-  width: 200px;
+  width: 220px;
   margin-bottom: 100px;
 }
