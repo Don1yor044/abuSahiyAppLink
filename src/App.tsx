@@ -12,7 +12,8 @@ function App() {
 
   const handleAppOpen = () => {
     const appUrl = `https://app.abusahiy.uz${links}`;
-    window.location.assign(appUrl);
+    // window.location.assign(appUrl);
+    window.open(appUrl, "_system");
     // window.open(appUrl, "_blank");
   };
 
