@@ -12,7 +12,7 @@ function App() {
 
   const handleAppOpen = () => {
     const appUrl = `https://app.abusahiy.uz${links}`;
-    window.location.href = appUrl;
+    window.open(appUrl, "_blank");
   };
 
   const handleDownloadApp = () => {
@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="bg-container">
       <div>
-        <img src="./Exclude.png" className="img" alt="img" />
+        <img src="/Exclude.png" className="img" alt="img" />
       </div>
       <button onClick={handleAppOpen} className="button">
         App Open
