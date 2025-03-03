@@ -10,6 +10,8 @@ function App() {
     setLinks(location.pathname);
   }, [location]);
 
+  //nega verselga deploy bo]ladmi
+
   const handleAppOpen = () => {
     const appUrl = `https://app.abusahiy.uz/GoodsDetailView/${links}`;
     // window.location.assign(appUrl);
