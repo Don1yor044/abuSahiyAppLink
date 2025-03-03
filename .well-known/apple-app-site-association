@@ -1,0 +1,20 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "FF7BV5AMSW.com.abusahiy.shop"
+        ],
+        "paths": [
+          "*"
+        ],
+        "components": [
+          {
+            "/": "/*"
+          }
+        ]
+      }
+    ]
+  }
+}

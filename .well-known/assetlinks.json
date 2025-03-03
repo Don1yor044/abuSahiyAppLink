@@ -1,0 +1,15 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.abusahiy.shop",
+      "sha256_cert_fingerprints": [
+        "7B:9F:A5:1E:DA:59:CA:DA:1F:63:8D:DC:DB:65:4E:5F:9A:3A:AB:D2:86:0B:88:92:DA:10:22:8C:08:E6:0C:03",
+        "78:DB:07:70:B4:40:AC:B3:90:B9:1C:11:49:60:DA:59:EF:94:AB:C5:B7:01:17:6B:A3:5C:BB:7D:CF:6B:7D:5A",
+        "C0:57:56:6D:D8:91:C5:6D:A3:17:C3:0F:34:66:1E:BB:75:ED:25:91:DD:A2:BD:BE:DE:8E:27:C9:E4:53:9F:42",
+        "FF:23:86:67:E8:2A:51:C3:A5:F0:45:0C:73:FC:78:56:80:25:A2:93:39:01:02:55:E7:33:DF:C5:71:B7:B1:3C"
+      ]
+    }
+  }
+]
