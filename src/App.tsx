@@ -10,10 +10,11 @@ function App() {
     setLinks(location.pathname);
   }, [location]);
 
-  //nega verselga deploy bo]ladmi
+  //nega verselga deploy bo]ladmi saslom
+  // xozir men nima qilay
 
   const handleAppOpen = () => {
-    const appUrl = `https://app.abusahiy.uz/${links}`;
+    const appUrl = `https://app.abusahiy.uz/GoodsDetailView/${links}`;
     // window.location.assign(appUrl);
     window.open(appUrl, "_system");
     // window.open(appUrl, "_blank");
