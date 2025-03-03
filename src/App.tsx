@@ -4,33 +4,17 @@ import { useLocation } from "react-router-dom";
 
 function App() {
   const location = useLocation();
-  const [productUrl, setProductUrl] = useState("");
+  const [links, setLinks] = useState("");
 
   useEffect(() => {
-    const hash = window.location.hash; // Misol: "#https://detail.1688.com/offer/45667018825.html"
-    if (hash) {
-      const decodedHash = decodeURIComponent(hash.substring(1)); // "#" ni olib tashlaymiz va dekodlaymiz
-      setProductUrl(decodedHash);
-    }
+    setLinks(location.pathname);
   }, [location]);
 
   const handleAppOpen = () => {
-    if (productUrl) {
-      // Deep linkni yaratish
-      const appUrl = `app.abusahiy.uz://GoodsDetailView/${encodeURIComponent(
-        productUrl
-      )}`;
-      window.location.href = appUrl;
-
-      // Agar deep link ishlamasa, fallback uchun timeout qo'shish
-      setTimeout(() => {
-        alert(
-          "Ilova ochilmadi. Iltimos, ilovani o'rnatganingizga ishonch hosil qiling."
-        );
-      }, 3000); // 3 soniya kutib, fallbackni boshqarish
-    } else {
-      alert("Mahsulot havolasi topilmadi!");
-    }
+    const appUrl = `app.abusahiy.uz://GoodsDetailView/${links}`;
+    // window.location.assign(appUrl);
+    window.open(appUrl, "_system");
+    // window.open(appUrl, "_blank");
   };
 
   const handleDownloadApp = () => {
