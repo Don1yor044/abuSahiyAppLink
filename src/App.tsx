@@ -11,7 +11,7 @@ function App() {
   }, [location]);
 
   const handleAppOpen = () => {
-    const appUrl = `app.abusahiy.uz://GoodsDetailView/${links}`;
+    const appUrl = `https://app.abusahiy.uz/GoodsDetailView/${links}`;
     // window.location.assign(appUrl);
     window.open(appUrl, "_system");
     // window.open(appUrl, "_blank");
