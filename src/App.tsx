@@ -13,7 +13,7 @@ function App() {
   //nega verselga deploy bo]ladmi
 
   const handleAppOpen = () => {
-    const appUrl = `https://app.abusahiy.uz/GoodsDetailView/${links}`;
+    const appUrl = `https://app.abusahiy.uz/${links}`;
     // window.location.assign(appUrl);
     window.open(appUrl, "_system");
     // window.open(appUrl, "_blank");
