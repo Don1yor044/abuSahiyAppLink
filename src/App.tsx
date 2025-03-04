@@ -14,7 +14,7 @@ function App() {
   // xozir men nima qilay
 
   const handleAppOpen = () => {
-    const appUrl = `https://app.abusahiy.uz/GoodsDetailView/${links}`;
+    const appUrl = `intent://app.abusahiy.uz/GoodsDetailView/${links}`;
     // window.location.assign(appUrl);
     window.open(appUrl, "_system");
     // window.open(appUrl, "_blank");
